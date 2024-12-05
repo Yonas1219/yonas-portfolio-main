@@ -255,6 +255,46 @@ const projects = [
 		web_link: "https://store-it-sooty.vercel.app/sign-in",
 	},
 	{
+			name: "YC Directory",
+			description:
+				"Showcase your startup, connect with entrepreneurs, and compete in virtual pitch competitions. Submit ideas, vote, and get noticed!",
+			tags: [
+				{
+					name: "Vue",
+					color: "blue-text-gradient",
+				},
+				{
+					name: "Nuxt.js",
+					color: "green-text-gradient",
+				},
+				{
+					name: "Axios",
+					color: "blue-text-gradient",
+				},
+				{
+					name: "Headless",
+					color: "pink-text-gradient",
+				},
+	
+				{
+					name: "tailwind",
+					color: "pink-text-gradient",
+				},
+				{
+					name: "Pinia",
+					color: "blue-text-gradient",
+				},
+				{
+					name: ".Net",
+					color: "blue-text-gradient",
+				},
+			],
+			image: splitbor,
+			source_code_link: "https://github.com/Yonas1219/yc_directory",
+			web_link: "https://yc-directory-flame.vercel.app/",
+		},
+	
+	{
 		name: "Sheger Gebeta",
 		description:
 			"Indulge in culinary exploration! Discover and share delectable recipes on this intuitive, user-friendly platform designed for passionate food enthusiasts. Join the flavorful journey!",
@@ -364,46 +404,7 @@ const projects = [
 		source_code_link: "",
 		web_link: "https://tarixchi.vercel.app/",
 	},
-	// {
-	// 	name: "Split bore, buy product by splitting payments",
-	// 	description:
-	// 		"SplitBor.uz allows you to divide the cost of your purchase into four equal parts, free from any extra fees or overpayments. This feature simplifies payment processes, making shopping more accessible and budget-friendly",
-	// 	tags: [
-	// 		{
-	// 			name: "Vue",some alsom
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Nuxt.js",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Axios",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Headless",
-	// 			color: "pink-text-gradient",
-	// 		},
-
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Pinia",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: ".Net",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 	],
-	// 	image: splitbor,
-	// 	source_code_link: "",
-	// 	web_link: "https://split-bor.vercel.app/",
-	// },
-
+	//
 	{
 		name: "Shemach",
 		description:
@@ -429,7 +430,7 @@ const projects = [
 		image: shemach,
 		source_code_link: "",
 		web_link: "https://shemach-612da.web.app/",
-	},
+	}
 ];
 
 export { services, technologies, experiences, projects };

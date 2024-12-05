@@ -41,7 +41,7 @@ import recipe2 from "./recipe2.png";
 import kena from "./kena.png";
 import sheger from "./sheger.png";
 import plan from "./plan.png";
-import splitbor from "./split.png";
+import splitbor from "./pitch.png";
 import tarixchi from "./tartxchi.png";
 
 /*-------------------social icons-------------------*/
