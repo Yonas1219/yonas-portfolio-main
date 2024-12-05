@@ -28,8 +28,8 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import getnet from "./company/getnet.png";
 import aastu from "./company/AASTU.jpg";
-import minabIcon from "./minabicon.png";
-import a2sv from "./company/a2svlogo.jpeg";
+import minabIcon from "./danEnergy.jpeg";
+import a2sv from "./company/alxjpeg.jpeg";
 
 /*-------------------project images-------------------*/
 import carrent from "./carrent.png";

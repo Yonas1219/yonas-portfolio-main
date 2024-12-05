@@ -165,17 +165,15 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Full Stack Developer",
+		title: "Machine Learning Engineer",
 		company_name: "Dan Energy Ethiopia Research and Development",
 		website: "https://www.danenergyethiopia.com/",
 		icon: minabIcon,
 		iconBg: "#E6DEDD",
-		date: "Oct 2023 - present",
+		date: "Oct 2023 - 2024",
 		points: [
-			"Developing  web application using Vue.js Go and Hasura.",
-			"Collaborating with cross-functional teams ",
-			"Implementing responsive design and ensuring cross-browser compatibility using tailwind.",
-			"Creating enterprise level website with Hasura and Nuxt.js",
+			"Optimized code generation pipelines, leading to a 20% reduction in code generation time. Leveraged AI models to accurately predict and suggest JavaScript code snippets, significantly streamlining the development process for engineers and researchers.",
+			"Enhanced productivity by 25% through the implementation of AI-driven solutions, enabling faster prototyping and minimizing manual coding errors, thereby improving overall development efficiency.",
 		],
 	},
 
@@ -194,17 +192,16 @@ const experiences = [
 		],
 	},
 	{
-		title: "Data Structure and Algorithm Trainee ",
-		company_name: "A2SV",
+		title: "Certified AWS Solutions Architect",
+		company_name: "ALX africa",
 		icon: a2sv,
-		website: "https://a2sv.org/",
+		website: "https://www.alxafrica.com/",
 		iconBg: "#E6DEDD",
-		date: "Dec 2022 - 2023 Sept",
+		date: "Dec 2023 - 2024 ",
 
 		points: [
-			"I devoted a full year to thorough, in-person study of data structures and algorithms.",
-			"solved more than 400  DSA questions on LeetCode and other platforms.",
-			"Developed teamwork skills and gained practical experience in collaborating effectively within a group.",
+			"I earned the AWS Certified Solutions Architect certification, which validates my ability to design and implement highly scalable,reliable, and cost-effective systems on the AWS platform",
+			"I earned my AWS Cloud Practitioner certificate, demonstrating my foundational knowledge of AWS cloud services and solutions.",
 		],
 	},
 	{
