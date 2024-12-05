@@ -36,7 +36,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import shemach from "./shemach.png";
-import recipe from "./storeIt.png";
+import recipe from "./recipe.png";
 import recipe2 from "./recipe2.png";
 import kena from "./kena.png";
 import sheger from "./sheger.png";
