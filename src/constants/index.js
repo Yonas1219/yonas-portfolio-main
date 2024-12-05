@@ -205,57 +205,56 @@ const experiences = [
 		],
 	},
 	{
-		title: "Software Engineering student ",
-		company_name: "AASTU",
+		title: "Software Developer intern ",
+		company_name: "AASTU Rock-Library Website",
 		icon: aastu,
 		website: "http://www.aastu.edu.et/",
 		iconBg: "#E6DEDD",
-		date: "Sep 2019 - Present",
+		date: "2019 - 2020",
 		points: [
-			"Studied various programming languages and technology stacks.",
-			"Participated in a variety of projects, both collaboratively within a team and individually.",
-			"Acquired knowledge in diverse Software Development Life Cycle (SDLC) methodologies and gained  documenting project requirements.",
-			"Developed teamwork skills and gained practical experience in collaborating effectively within a group.",
+			"Built an online platform for creating a dataset on mineral rocks in Ethiopia using VueJS and NodeJS. The Platform allows researchers to upload their findings and making it accessible to the public.",
+			"My contributions led to a 50% increase in data submission rate from researchers,as the platform made it easier to upload and access findings, significantly improving data availability for the public.",
+			"The integration I worked on improved the workflow efficiency by 30%, resulting in faster data processing and a smoother experience for researchers and users.",
 		],
 	},
 ];
 
 const projects = [
-	{
-		name: "Kena",
-		description:
-			"Kena, under EYEA, fuels youth entrepreneurship through training, mentorship, and financial support. Its innovation competitions and strategic partnerships enrich a dynamic ecosystem, propelling the success of youth-led businesses.",
-		tags: [
-			{
-				name: "Vue",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Nuxt.js",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Vue Apollo",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "graphql",
-				color: "pink-text-gradient",
-			},
+	// {
+	// 	name: "Kena",
+	// 	description:
+	// 		"Kena, under EYEA, fuels youth entrepreneurship through training, mentorship, and financial support. Its innovation competitions and strategic partnerships enrich a dynamic ecosystem, propelling the success of youth-led businesses.",
+	// 	tags: [
+	// 		{
+	// 			name: "Vue",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Nuxt.js",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Vue Apollo",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "graphql",
+	// 			color: "pink-text-gradient",
+	// 		},
 
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Pinia",
-				color: "blue-text-gradient",
-			},
-		],
-		image: kena,
-		source_code_link: "",
-		web_link: "https://kena.eyea.et/",
-	},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Pinia",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: kena,
+	// 	source_code_link: "",
+	// 	web_link: "https://kena.eyea.et/",
+	// },
 	{
 		name: "Sheger Gebeta",
 		description:
@@ -366,50 +365,50 @@ const projects = [
 		source_code_link: "",
 		web_link: "https://tarixchi.vercel.app/",
 	},
-	{
-		name: "Split bore, buy product by splitting payments",
-		description:
-			"SplitBor.uz allows you to divide the cost of your purchase into four equal parts, free from any extra fees or overpayments. This feature simplifies payment processes, making shopping more accessible and budget-friendly",
-		tags: [
-			{
-				name: "Vue",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Nuxt.js",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Axios",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Headless",
-				color: "pink-text-gradient",
-			},
+	// {
+	// 	name: "Split bore, buy product by splitting payments",
+	// 	description:
+	// 		"SplitBor.uz allows you to divide the cost of your purchase into four equal parts, free from any extra fees or overpayments. This feature simplifies payment processes, making shopping more accessible and budget-friendly",
+	// 	tags: [
+	// 		{
+	// 			name: "Vue",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Nuxt.js",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Axios",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Headless",
+	// 			color: "pink-text-gradient",
+	// 		},
 
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Pinia",
-				color: "blue-text-gradient",
-			},
-			{
-				name: ".Net",
-				color: "blue-text-gradient",
-			},
-		],
-		image: splitbor,
-		source_code_link: "",
-		web_link: "https://split-bor.vercel.app/",
-	},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Pinia",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: ".Net",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: splitbor,
+	// 	source_code_link: "",
+	// 	web_link: "https://split-bor.vercel.app/",
+	// },
 
 	{
-		name: "Delicious recipe",
+		name: "Store It",
 		description:
-			"Indulge in culinary exploration! Discover and share delectable recipes on this intuitive, user-friendly platform designed for passionate food enthusiasts. Join the flavorful journey!",
+			"Welcome to the ultimate solution for managing your documents! Our platform provides a secure and convenient space to store, organize, and access all your files anytime, anywhere.",
 		tags: [
 			{
 				name: "Vue",
@@ -437,8 +436,8 @@ const projects = [
 			},
 		],
 		image: recipe,
-		source_code_link: "https://github.com/yonaSisay/recipe_frontend",
-		web_link: "https://recipe-frontend-omega.vercel.app/",
+		source_code_link: "https://github.com/Yonas1219/store_it",
+		web_link: "https://store-it-sooty.vercel.app/sign-in",
 	},
 	{
 		name: "Shemach",
@@ -463,7 +462,7 @@ const projects = [
 			},
 		],
 		image: shemach,
-		source_code_link: "https://github.com/yonaSisay/shemach",
+		source_code_link: "",
 		web_link: "https://shemach-612da.web.app/",
 	},
 ];
