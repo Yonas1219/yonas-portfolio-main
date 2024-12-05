@@ -15,7 +15,7 @@ Welcome to my portfolio! This website showcases my work, skills, and projects as
 
 ## How to Use  
 1. Clone the repository:  
-   `git clone <your-repository-url>`
+   `git clone <https://github.com/Yonas1219/yonas-portfolio-main/tree/main>`
 
 2. Install dependencies:  
    `npm install`
