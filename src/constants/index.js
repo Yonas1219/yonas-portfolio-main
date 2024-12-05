@@ -91,7 +91,7 @@ const services = [
 		icon: web,
 	},
 	{
-		title: "React  Developer",
+		title: "Mobile  Developer",
 		icon: web,
 	},
 	{
@@ -99,7 +99,7 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: "Vue  Developer",
+		title: "AI / Machine Learning Engineer",
 		icon: web,
 	},
 ];
@@ -428,7 +428,7 @@ const projects = [
 			},
 		],
 		image: shemach,
-		source_code_link: "",
+		source_code_link: "https://github.com/Yonas1219/shemach-main",
 		web_link: "https://shemach-612da.web.app/",
 	}
 ];

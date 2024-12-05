@@ -25,7 +25,7 @@ const Hero = () => {
 									Full-Stack Developer
 								</span>{" "}
 								with experience in{" "}
-								<span className="text-[#915eff]">React.js, Vue.js, Go,</span>{" "}
+								<span className="text-[#915eff]">React.js, Node.js, Go, Python</span>{" "}
 								and various technologies. Proven ability to collaborate in
 								teams, build responsive web applications
 							</p>

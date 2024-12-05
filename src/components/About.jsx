@@ -49,14 +49,10 @@ const About = () => {
 					alt=""
 					className="lg:mx-0 md:mx-20 rounded-xl object-contain shadow-card"
 				/>
-				<p className="text-secondary text-[17px] lg:ml-12 lg:mt-0 mt-8">
-					I am a full stack developer with a passion for creating beautiful and
-					functional websites. I have experience working with React,Vue, Node,
-					and MongoDB. I am currently working on a project that uses the MERN
-					and MERN stack and I am looking for opportunities to expand my
-					knowledge and skills. if you have any questions or would like to work
-					together, please feel free to contact me.|
-					<span className="text-violet-400">+251988109146</span>
+				<p className="text-secondary text-[17px] lg:ml-12 lg:mt-0 mt-8"> 
+I am a versatile software engineer with a passion for building innovative solutions across web, mobile, and AI domains. I specialize in creating efficient, scalable applications using the MERN stack. Additionally, I have experience in mobile app development and AI integration, crafting intelligent systems that deliver exceptional user experiences.  
+Driven by curiosity and a commitment to continuous growth, I’m eager to tackle challenging projects and expand my skill set. If you’re looking for a developer with a dynamic skill set to bring your vision to life, let’s connect! |
+					<span className="text-violet-400"> +251988109146</span>
 				</p>
 			</motion.div>
 
