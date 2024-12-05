@@ -220,41 +220,40 @@ const experiences = [
 ];
 
 const projects = [
-	// {
-	// 	name: "Kena",
-	// 	description:
-	// 		"Kena, under EYEA, fuels youth entrepreneurship through training, mentorship, and financial support. Its innovation competitions and strategic partnerships enrich a dynamic ecosystem, propelling the success of youth-led businesses.",
-	// 	tags: [
-	// 		{
-	// 			name: "Vue",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Nuxt.js",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Vue Apollo",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "graphql",
-	// 			color: "pink-text-gradient",
-	// 		},
-
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Pinia",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 	],
-	// 	image: kena,
-	// 	source_code_link: "",
-	// 	web_link: "https://kena.eyea.et/",
-	// },
+	{
+		name: "Store It",
+		description:
+			"Welcome to the ultimate solution for managing your documents! Our platform provides a secure and convenient space to store, organize, and access all your files anytime, anywhere.",
+		tags: [
+			{
+				name: "Vue",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Hasura",
+				color: "green-text-gradient",
+			},
+			{
+				name: "graphql",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Go",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Pinia",
+				color: "blue-text-gradient",
+			},
+		],
+		image: recipe,
+		source_code_link: "https://github.com/Yonas1219/store_it",
+		web_link: "https://store-it-sooty.vercel.app/sign-in",
+	},
 	{
 		name: "Sheger Gebeta",
 		description:
@@ -371,7 +370,7 @@ const projects = [
 	// 		"SplitBor.uz allows you to divide the cost of your purchase into four equal parts, free from any extra fees or overpayments. This feature simplifies payment processes, making shopping more accessible and budget-friendly",
 	// 	tags: [
 	// 		{
-	// 			name: "Vue",
+	// 			name: "Vue",some alsom
 	// 			color: "blue-text-gradient",
 	// 		},
 	// 		{
@@ -405,40 +404,6 @@ const projects = [
 	// 	web_link: "https://split-bor.vercel.app/",
 	// },
 
-	{
-		name: "Store It",
-		description:
-			"Welcome to the ultimate solution for managing your documents! Our platform provides a secure and convenient space to store, organize, and access all your files anytime, anywhere.",
-		tags: [
-			{
-				name: "Vue",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Hasura",
-				color: "green-text-gradient",
-			},
-			{
-				name: "graphql",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Go",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Pinia",
-				color: "blue-text-gradient",
-			},
-		],
-		image: recipe,
-		source_code_link: "https://github.com/Yonas1219/store_it",
-		web_link: "https://store-it-sooty.vercel.app/sign-in",
-	},
 	{
 		name: "Shemach",
 		description:
