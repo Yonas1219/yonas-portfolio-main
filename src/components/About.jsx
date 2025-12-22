@@ -49,7 +49,7 @@ const About = () => {
 					alt=""
 					className="lg:mx-0 md:mx-20 rounded-xl object-contain shadow-card"
 				/> */}
-        <p className="text-secondary text-[17px] lg:ml-12 lg:mt-0 mt-8">
+        <p className="text-secondary text-[14px] sm:text-[17px] lg:ml-12 lg:mt-0 mt-8 leading-[24px] sm:leading-[30px]">
           I am a versatile software engineer with a passion for building
           innovative solutions across web, mobile, and AI domains. I specialize
           in creating efficient, scalable applications using the MERN stack.
