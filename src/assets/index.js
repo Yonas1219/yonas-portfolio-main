@@ -28,6 +28,8 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import getnet from "./company/getnet.png";
 import aastu from "./company/AASTU.jpg";
+import upwork from "./company/upwork.png";
+import nexus from "./company/nexus.png";
 import minabIcon from "./danEnergy.jpeg";
 import a2sv from "./company/alxjpeg.jpeg";
 
@@ -36,6 +38,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import shemach from "./shemach.png";
+import cashgigs from "./cashgigs.png";
+import glassfactory from "./glassfactory.png";
 import recipe from "./recipe.png";
 import recipe2 from "./recipe2.png";
 import kena from "./kena.png";
@@ -52,47 +56,51 @@ import twitter from "./twitter.png";
 import yonaspic from "./photo_of_jann.jpg";
 
 export {
-	splitbor,
-	tarixchi,
-	yonaspic,
-	logo,
-	backend,
-	creator,
-	mobile,
-	web,
-	github,
-	menu,
-	close,
-	css,
-	docker,
-	vue,
-	figma,
-	git,
-	html,
-	javascript,
-	mongodb,
-	nodejs,
-	reactjs,
-	redux,
-	tailwind,
-	typescript,
-	threejs,
-	meta,
-	getnet,
-	aastu,
-	carrent,
-	jobit,
-	tripguide,
-	instagram,
-	linkedin,
-	telegram,
-	twitter,
-	shemach,
-	recipe,
-	recipe2,
-	kena,
-	sheger,
-	plan,
-	minabIcon,
-	a2sv,
+  splitbor,
+  tarixchi,
+  yonaspic,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  docker,
+  vue,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  meta,
+  getnet,
+  aastu,
+  upwork,
+  nexus,
+  carrent,
+  jobit,
+  tripguide,
+  instagram,
+  linkedin,
+  telegram,
+  twitter,
+  shemach,
+  cashgigs,
+  glassfactory,
+  recipe,
+  recipe2,
+  kena,
+  sheger,
+  plan,
+  minabIcon,
+  a2sv,
 };
