@@ -67,7 +67,7 @@ const Hero = () => {
       <div className="absolute flex items-center justify-center w-full xs:bottom-2 bottom-10">
         <a href="#about">
           <div className="w-[35px] h-[60px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}
@@ -77,7 +77,7 @@ const Hero = () => {
                 repeatType: "loop",
               }}
               className="w-3 h-3 mb-1 rounded-full bg-secondary"
-            ></motion.dev>
+            ></motion.div>
           </div>
         </a>
       </div>
