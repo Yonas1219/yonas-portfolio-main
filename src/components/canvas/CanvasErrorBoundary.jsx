@@ -4,25 +4,37 @@ let cachedWebGL = null;
 
 /**
  * True when the browser can create a WebGL context.
- * Result is cached and the probe context is released so we do not
- * exhaust the browser's limited WebGL context budget (false negatives).
+ * Result is cached. We avoid WEBGL_lose_context on the probe by default —
+ * forcibly losing the probe context has caused false negatives / flaky
+ * follow-up canvases in Chrome.
  */
-export function canUseWebGL() {
+export function canUseWebGL(options = {}) {
+  const { refresh = false } = options;
   if (typeof document === "undefined") return false;
-  if (cachedWebGL !== null) return cachedWebGL;
+  if (!refresh && cachedWebGL !== null) return cachedWebGL;
 
   try {
     const canvas = document.createElement("canvas");
+    canvas.width = 1;
+    canvas.height = 1;
     const gl =
-      canvas.getContext("webgl2") ||
-      canvas.getContext("webgl") ||
+      canvas.getContext("webgl2", {
+        failIfMajorPerformanceCaveat: false,
+        powerPreference: "default",
+      }) ||
+      canvas.getContext("webgl", {
+        failIfMajorPerformanceCaveat: false,
+        powerPreference: "default",
+      }) ||
       canvas.getContext("experimental-webgl");
 
     cachedWebGL = !!gl;
 
-    if (gl) {
-      const lose = gl.getExtension("WEBGL_lose_context");
-      if (lose) lose.loseContext();
+    // Detach the probe canvas; do not call loseContext() — that can poison
+    // Chrome's shared GPU process for subsequent real canvases.
+    if (gl && typeof gl.getParameter === "function") {
+      // Touch a harmless parameter so drivers fully initialize the context.
+      gl.getParameter(gl.VERSION);
     }
   } catch {
     cachedWebGL = false;

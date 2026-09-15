@@ -36,9 +36,18 @@ const StarsCanvas = () => {
   if (!canUseWebGL()) return null;
 
   return (
-    <div className="w-full h-auto absolute inset-0 z-[-1]">
+    <div className="w-full h-auto absolute inset-0 z-[-1] pointer-events-none">
       <CanvasErrorBoundary>
-        <Canvas camera={{ position: [0, 0, 1] }}>
+        <Canvas
+          camera={{ position: [0, 0, 1] }}
+          dpr={[1, 1.5]}
+          gl={{
+            antialias: false,
+            alpha: true,
+            powerPreference: "default",
+            failIfMajorPerformanceCaveat: false,
+          }}
+        >
           <Suspense fallback={null}>
             <Stars />
           </Suspense>
