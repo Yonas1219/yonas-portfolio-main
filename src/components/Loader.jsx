@@ -1,9 +1,7 @@
-import React from "react";
 import { Html, useProgress } from "@react-three/drei";
-import { progress } from "framer-motion";
 
 const Loader = () => {
-  const { progress } = useProgress();
+	const { progress } = useProgress();
 	return (
 		<Html>
 			<span>
@@ -14,7 +12,9 @@ const Loader = () => {
 						fontWeight: 800,
 						marginTop: 40,
 					}}
-				> {progress.toFixed(2)}%</p>
+				>
+					{progress.toFixed(2)}%
+				</p>
 			</span>
 		</Html>
 	);

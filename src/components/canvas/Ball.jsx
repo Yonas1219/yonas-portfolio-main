@@ -9,6 +9,7 @@ import {
 } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import CanvasErrorBoundary, { canUseWebGL } from "./CanvasErrorBoundary";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -38,19 +39,23 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  return (
-    <Canvas
-      frameloop='demand'
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
-      </Suspense>
+  if (!canUseWebGL()) return null;
 
-      <Preload all />
-    </Canvas>
+  return (
+    <CanvasErrorBoundary>
+      <Canvas
+        frameloop="demand"
+        dpr={[1, 2]}
+        gl={{ preserveDrawingBuffer: true }}
+      >
+        <Suspense fallback={<CanvasLoader />}>
+          <OrbitControls enableZoom={false} />
+          <Ball imgUrl={icon} />
+        </Suspense>
+
+        <Preload all />
+      </Canvas>
+    </CanvasErrorBoundary>
   );
 };
 

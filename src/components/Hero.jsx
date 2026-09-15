@@ -58,7 +58,7 @@ const Hero = () => {
             <img
               src={yonaspic}
               alt=""
-              className="shadow-card object-cover h-[550px] w-[450px] lg:mx-0 md:mx-20 rounded-[20px]"
+              className="shadow-card object-cover h-[480px] w-[390px] lg:mx-0 md:mx-20 rounded-[20px]"
             />
           </div>
         </div>
